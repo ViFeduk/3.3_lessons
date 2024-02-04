@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            string name = Viktor
+            string name = "Viktor";
+            int age = 18;
+            bool HaveAPet = false;
+            double myShoeSize = 44;
+            Console.WriteLine($"My name is {name}\nMy age is {age}\nDo I have a pet? {HaveAPet}\nMy shoe size is {myShoeSize}");
         }
     }
 }
